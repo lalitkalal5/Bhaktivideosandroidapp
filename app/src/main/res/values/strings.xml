@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Videoapp</string>
+    <string name="title_activity_secondactivity">Secondactivity</string>
+    <string name="title_activity_thirdactivity">Thirdactivity</string>
+</resources>
