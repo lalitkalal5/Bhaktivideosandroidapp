@@ -95,7 +95,7 @@ fun Layout2(Vtitle:VideoData){
             .background(Color.DarkGray)
             .clickable {
                 val intent = Intent(context, Thirdactivity::class.java)
-                intent.putExtra("vurl",Vtitle.thumbnailUrl)
+                intent.putExtra("vurl",Vtitle.videoUrl)
                 context.startActivity(intent)
             }
             .fillMaxSize()
